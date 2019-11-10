@@ -75,7 +75,8 @@ Viewpoint {
   orientation 0 1 0 0
 }
 DEF Camera1_Start Transform {
-  rotation 0 1 0 0.4
+  rotation -1 1 1 0.4
+  center 1 1 1
   children Viewpoint {
     description "Observe Car at Start"
     position 2 2 10
@@ -84,6 +85,10 @@ DEF Camera1_Start Transform {
 }
 DEF Box Transform {
   children Shape {
+    appearance Appearance {
+      material Material {
+      }
+    }
     geometry Box {
     }
   }
