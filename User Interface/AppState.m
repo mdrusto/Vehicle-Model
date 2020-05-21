@@ -1,6 +1,6 @@
 classdef AppState
     
     enumeration
-        Start, Simulation, CarProperties
+        Start, Simulation, CarParameters
     end
 end
